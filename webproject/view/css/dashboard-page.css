@@ -1,0 +1,77 @@
+
+
+.dashboard-table-container{
+  width: 80%;
+}
+.dashboard-table {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin-top: 10px;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.dashboard-table caption {
+  font: 23px/24px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin: 7px 14px;
+}
+
+.dashboard-table tr {
+  background-color: #f8f8f8;
+  font: 14px/15px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  border: 1px solid #ddd;
+}
+
+.dashboard-table th,
+.dashboard-table td {
+  padding: 10px;
+  text-align: center;
+}
+
+.dashboard-table th {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.dashboard-form-btn{
+  padding: 1px 7px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  height: 20px;
+}
+
+
+@media screen and (max-width: 630px) {
+  .dashboard-table {
+    border: 0;
+  }
+
+  .dashboard-table thead {
+    display: none;
+  }
+
+  .dashboard-table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: 6px;
+  }
+
+  .dashboard-table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: 9px;
+    text-align: right;
+  }
+
+  .dashboard-table td::before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .dashboard-table td:last-child {
+    border-bottom: 0;
+  }
+}

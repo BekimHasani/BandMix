@@ -1,0 +1,19 @@
+
+.left-about-content {
+  margin: 32px 0 0 27px;
+  height: 700px;
+}
+
+.left-about-content h1 {
+  font: 30px/29px arial;
+  margin-bottom: 12px;
+}
+
+.left-about-content p {
+  font: 14px arial;
+  line-height: 24px;
+  padding-bottom: 10px;
+}
+.aboutus-video-frame{
+  padding: 10px 0 10px 0;
+}

@@ -1,0 +1,45 @@
+.left-contact-content{
+    margin: 42px 0 0 27px;
+    height: 600px;
+}
+.left-contact-content h2{
+    font: 23px arial;
+    padding-bottom: 10px;
+}
+.left-contact-content ul {
+        margin-left: 4%;
+}
+.left-contact-content  hr {
+    width: 90%;
+    border: 1px solid lightgray;
+}
+.left-contact-content ul li a{
+    text-decoration: none;
+    color:#333;
+    font: 14px/25px arial;
+}
+.left-contact-content ul li a:hover{
+    text-decoration:underline;
+}
+.left-contact-content  p {
+    font:15px arial;
+}
+.left-contact-content  input {
+    margin-left: 2%;
+    padding: 5px 4px;
+    width: 170px;
+    border-radius: 4px;
+    border: 1px solid gray;
+}
+.left-contact-content textarea{
+    width: 80%;
+}
+.left-contact-content textarea{
+    width: 80%;
+}
+#contactus-input-table td{
+    padding: 10px 0;
+}
+#contactus-textarea{
+    margin: 10px 0;
+}

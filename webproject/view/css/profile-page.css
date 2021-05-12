@@ -1,0 +1,119 @@
+
+.profile-img-container{
+  margin-left: 5%;
+}
+
+.profileImg{
+  width: 130px;
+  height: 150px;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.075) inset;
+  margin-left: 13%;
+}
+
+.profile-img-container p{
+  padding-left: 55px;
+  font: 8px/10px 'Helvetica Neue', Helvetica-Neue, Helvetica, Arial, sans-serif;
+}
+
+.text-style {
+  padding: 2% 2% 2% 2%;
+  padding-top: 0.5%;
+  font: 12px/18px 'Helvetica Neue', Helvetica-Neue, Helvetica, Arial, sans-serif;
+}
+.text-style p {
+  width: 80%;
+  font: 12px/18px 'Helvetica Neue', Helvetica-Neue, Helvetica, Arial, sans-serif;
+  font-stretch: expanded;
+}
+
+.table-style tr td {
+  font: 12px/18px 'Helvetica Neue', Helvetica-Neue, Helvetica, Arial, sans-serif;
+}
+.table-style tr td label {
+  font-weight: bold;
+}
+
+.table-style label{
+  font-weight: bold;
+}
+
+.post-style{
+  padding-left: 8%;
+  font: 12px/18px 'Helvetica Neue', Helvetica-Neue, Helvetica, Arial, sans-serif;
+}
+
+.postBtn{
+  float: right;
+  margin-right: 10%;
+  width: 15%;
+  height: 20PX;
+  margin-bottom: 20PX;
+}
+.desriptionBtn{
+  padding: 2px 5px;
+  float: right;
+}
+
+.content{
+    margin: 80px 0 0 200px;
+    height: auto;
+    margin-bottom: 4%;
+    display: flex;
+}
+.profileDescription textarea{
+  border: none;
+}
+hr{
+  width:90%;
+  margin-left: 5%;
+}
+
+#post-textarea{
+  width:90%;
+  margin: 10px 0;
+}
+
+.table-style{
+  border-spacing:20px 5px;
+}
+
+.post-style{
+  font-weight: bold;
+  margin-right: 25px;
+}
+
+.post-view{
+  width: 85%;
+  height: auto;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.075) inset;
+  margin: 2% 9% 2% 7.5%;
+}
+
+.post-view p{
+  padding: 1% 2% 2% 3%;
+  font: 12px/18px 'Helvetica Neue', Helvetica-Neue, Helvetica, Arial, sans-serif;
+}
+
+.post-view h6{
+  margin: 0% 0% 1% 50%  ;
+  font: 10px/12px 'Helvetica Neue', Helvetica-Neue, Helvetica, Arial, sans-serif;
+}
+
+
+#MusicianProfileForm{
+  width: 30%;
+  height: auto;
+  padding-left: 6%;
+  padding-top: 0%;
+}
+
+#BandProfileForm{
+  width: 30%;
+  height: auto;
+  padding-left: 6%;
+  padding-top: 0%;
+}

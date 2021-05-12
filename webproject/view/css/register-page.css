@@ -1,0 +1,99 @@
+.register-page-input {
+  width: 100%;
+  padding: 9px 0 9px 0;
+  border-radius: 6px;
+  border: 1px solid #CCCCCC
+}
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.registerbtn {
+  background: linear-gradient(to bottom, #ed4d4d 0, #d01f1f 100%);
+  color: azure;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  border-radius: 6px;
+  opacity: 0.9;
+}
+
+.type-change-button{
+  background: linear-gradient(to bottom, #ed4d4d 0, #d01f1f 100%);
+  color: azure;
+  text-align: center;
+  padding: 12px 25px 12px 22px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 40%;
+  border-radius: 6px;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.register-main-content{
+	font: 13px/26px 'Helvetica Neue', Helvetica-Neue, Helvetica, Arial, sans-serif;
+	width: 100%;
+    height: 720px;
+    margin: 30px 26px 0 26px;
+}
+
+#register-header{
+	width: 98%;
+}
+
+#register-header h1{
+	padding-bottom: 10px;
+}
+
+#register-form{
+	width: 60%;
+}
+
+#register-table{
+	width: 100%;
+}
+#register-table td{
+	padding: 10px;
+}
+.usertype-radiobutton{
+	padding: 9px 14px 9px 12px;
+}
+
+#band-register-form{
+	width:60%;
+	padding-left: 19%
+
+}
+
+#musician-register-form{
+	width: 60%;
+	padding-left:19%;
+}
+
+
+#MusicianForm{
+  width: 90%;
+  height: auto;
+  padding-left: 6%;
+  padding-top: 0%;
+}
+
+#BandForm{
+  width: 90%;
+  height: auto;
+  padding-left: 6%;
+  padding-top: 0%;
+}
